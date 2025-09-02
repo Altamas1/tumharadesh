@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: main   # ya 'master' agar tumhare repo me branch ka naam master hai
+  branch: main   # Tumhari repo ki main branch
 
-media_folder: "images/uploads"   # yaha photos save honge
-public_folder: "/images/uploads"
+media_folder: "images/uploads"   # Repo ke andar jaha photos save honge
+public_folder: "/images/uploads" # Website pe images dikhane ke liye
 
 collections:
   - name: "posts"
